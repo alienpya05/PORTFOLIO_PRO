@@ -1,11 +1,214 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="node_modules/bulma/css/bulma.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+
+<body class="has-navbar-fixed-top">
+    <header>
+        <div class="navbar is-fixed-top p-3 has-shadow " role="navigation" aria-label="main navigation" style="background-color: #F9FAFE;">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="#" class="navbar-item is-size-4 has-text-weight-bold has-text-danger">JOSIAS.</a>
+                    <a class="navbar-burger" id="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+                <div class="navbar-menu ml-6" id="nav-links">
+                    <div class="navbar-start ">
+                        <a href="#" class="navbar-item">HOME</a>
+                        <a href="#" class="navbar-item">ABOUT ME</a>
+                        <a href="#" class="navbar-item">SKILLS</a>
+                        <a href="#" class="navbar-item">SERVICES</a>
+                        <a href="#" class="navbar-item">PORTFOLIO</a>
+                        <a href="#" class="navbar-item">CONTACT</a>
+                    </div>
+                    <div class="navbar-end">
+                        <a href="#" class="navbar-item">
+                            <img width="26" height="26" src="https://img.icons8.com/ios/50/linkedin.png"
+                                alt="linkedin" />
+                        </a>
+                        <a href="#" class="navbar-item">
+                            <img width="26" height="26" src="https://img.icons8.com/ios/50/twitterx--v2.png"
+                                alt="twitterx--v2" />
+                        </a>
+                        <a href="#" class="navbar-item">
+                            <img width="26" height="26" src="https://img.icons8.com/ios/50/whatsapp--v1.png"
+                                alt="whatsapp--v1" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main> 
+        <section class="hero" style="background-color: #F9FAFE;">
+            <div class="hero-body">
+                <div class="container">
+                    <div class="columns is-flex-desktop">
+                        <div class="column is-two-thirds is-align-self-center">
+                            <p class="subtitle is-size-5 is-size-6-mobile has-text-weight-bold ">
+                                Looking for a Developer !
+                            </p>
+                            <h1 class="title is-1 is-size-4-mobile has-text-weight-bold has-text-danger" >
+                                I'm Josias Assih
+                            </h1>
+                            <p class="has-text-justified is-size-5 is-size-7-mobile is-size-5-tablet">
+                                Obviously i'm a Web Developer with over 1 years of experience. <br>
+                                Experienced with all stages of developement cycle for dynamic web project
+                            </p>
+
+                            <div class="column p-0 mt-5">
+                                <button class="button has-text-white is-danger mr-3">
+                                    Hire me
+                                </button>
+                                <button class="button is-outlined is-danger">
+                                    Download CV&nbsp;<span class="is-size-6  has-text-weight-bold">↓</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="column is-justify-content-center">
+                           <img class="" src="assets/image/photo1.webp" alt="photo-josias" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section about-me-section ">
+            <div class="container is-max-desktop">
+                <div class="columns is-flex is-justify-content-space-around">
+                    <div class="column is-half">
+
+                    </div>
+                    <div class="column">
+                        <p class="subtitle has-text-danger has-text-weight-bold">
+                            who am i ?
+                        </p>
+                        <h1 class="title is-size-4">
+                            I'm Josias Assih, a Sofware Engineering Student
+                            and Web Developer
+                        </h1>
+                        <p class="has-text-justified pb-4" style="border-bottom: 1px solid rgb(62, 60, 60);">
+                            As a software engineering student passionate about IT security, I am constantly seeking new knowledge to progress.
+                            My ultimate goal is to become a competent expert capable of providing quality services and contributing to the evolution of the technology. <br> <br>
+                            I am dedicated to providing quality services, my commitment to customer satisfaction is indisputable proof of this.
+                        </p>
+                        <div class="colomns is-flex mt-4">
+                            <div class="colomn mr-6 mr-6">
+                                <p class="mb-3"><span class="has-text-weight-bold mr-4">Name</span>Josias ASSIH</p>
+                                <p class="mb-4"><span class="has-text-weight-bold mr-4 ">Age</span>19</p>
+                                <button class="button is-danger ">Contact Me</button>
+                            </div>
+                            <div class="colomn ml-6">
+                                <p><span class="has-text-weight-bold mr-4">From</span>Lome,TOGO</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section skills-section">
+            <div class="container p-6">
+                <h3 class="title has-text-centered is-size-4">SKILLS</h3>
+                <div class="columns mt-5 is-8 is-variable">
+                    <div class="column is-6-tablet is-3-desktop column-card ">
+                        <div class="card pr-0">
+                            <div class="card-image is-flex is-justify-content-center pt-5">
+                                <img src="assets/image/logo_icons/html5-svgrepo-com.svg" alt="" width="75px"">
+                            </div>
+                            <div class="card-content">
+                                <p class="subtitle is-size-6 has-text-weight-bold has-text-centered">HTML</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="column is-4-tablet is-3-desktop column-card">
+                        <div class="card">
+                            <div class="card-image is-flex is-justify-content-center pt-5">
+                                <img src="assets/image/logo_icons/css3-svgrepo-com.svg" alt="" width="75px"">
+                            </div>
+                            <div class="card-content">
+                                <p class="subtitle is-size-6 has-text-weight-bold has-text-centered">CSS</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="column is-4-tablet is-3-desktop column-card">
+                        <div class="card">
+                            <div class="card-image is-flex is-justify-content-center pt-5">
+                                <img src="assets/image/logo_icons/javascript-logo-svgrepo-com.svg" alt="" width="75px"">
+                            </div>
+                            <div class="card-content">
+                                <p class="subtitle is-size-6 has-text-weight-bold has-text-centered">JS</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="column is-4-tablet is-3-desktop column-card">
+                        <div class="card">
+                            <div class="card-image is-flex is-justify-content-center pt-5">
+                                <img src="assets/image/logo_icons/php-svgrepo-com.svg" alt="" width="75px"">
+                            </div>
+                            <div class="card-content">
+                                <p class="subtitle is-size-6 has-text-weight-bold has-text-centered">PHP</p>
+                            </div>    
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="columns mt-5 is-8 is-variable">
+                    <div class="column is-4-tablet is-3-desktop column-card">
+                        <div class="card">
+                            <div class="card-image is-flex is-justify-content-center pt-5">
+                                <img src="assets/image/logo_icons/python-svgrepo-com.svg" alt="" width="75px"">
+                            </div>
+                            <div class="card-content">
+                                <p class="subtitle is-size-6 has-text-weight-bold has-text-centered">PYTHON</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="column is-4-tablet is-3-desktop column-card">
+                        <div class="card">
+                            <div class="card-image is-flex is-justify-content-center pt-5">
+                                <img src="assets/image/logo_icons/git-svgrepo-com.svg" alt="" width="75px"">
+                            </div>
+                            <div class="card-content">
+                                <p class="subtitle is-size-6 has-text-weight-bold has-text-centered">GIT</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="column is-4-tablet is-3-desktop column-card">
+                        <div class="card">
+                            <div class="card-image is-flex is-justify-content-center pt-5">
+                                <img src="assets/image/logo_icons/bulma-svgrepo-com.svg" alt="" width="75px"">
+                            </div>
+                            <div class="card-content">
+                                <p class="subtitle is-size-6 has-text-weight-bold has-text-centered">BULMA</p>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="column is-4-tablet is-3-desktop column-card">
+                        <div class="card">
+                            <div class="card-image is-flex is-justify-content-center pt-5">
+                                <img src="assets/image/logo_icons/symfony-svgrepo-com.svg" alt="" width="75px"">
+                            </div>
+                            <div class="card-content">
+                                <p class="subtitle is-size-6 has-text-weight-bold has-text-centered">SYMFONY</p>
+                            </div>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
 </body>
+
 </html>

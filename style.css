@@ -1,0 +1,6 @@
+.column-card{
+    cursor: pointer;
+}
+.column-card :hover{
+    background-color: #F9FAFE;
+}
